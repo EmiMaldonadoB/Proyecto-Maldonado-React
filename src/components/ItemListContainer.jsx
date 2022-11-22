@@ -1,6 +1,6 @@
 const ItemListContainer = (props) => {
     return (
-        <div><h2>asjdasidjas</h2></div>
+        <div className="titulo">{props.mensaje}</div>
     )
 }
 
