@@ -11,7 +11,7 @@ const App = () => {
     <>
       
       <Navbar />
-      <ItemListContainer mensaje="Proximamente, nuestra lista de nuestros productos"/>
+      <ItemListContainer />
     </>
   )
 }

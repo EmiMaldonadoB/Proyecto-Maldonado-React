@@ -8,12 +8,12 @@ function ColorSchemesExample() {
     <>
       <Navbar  variant="dark" className='navbar'>
         <Container>
-          <Navbar.Brand href="#home">NG Amoblamientos</Navbar.Brand>
+          <Navbar.Brand href="#home"> Vinoteca y Algo mas... </Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="#category1">Category 1</Nav.Link>
-            <Nav.Link href="#category2">Category 2</Nav.Link>
-            <Nav.Link href="#category3">Category 3</Nav.Link>
-            <Nav.Link href="#category4">Category 4</Nav.Link>
+            <Nav.Link href="#category1">Tintos</Nav.Link>
+            <Nav.Link href="#category2">Blancos</Nav.Link>
+            <Nav.Link href="#category3">Aguas</Nav.Link>
+            
           </Nav>
           <Nav>
             <Nav.Link href="#login">Login</Nav.Link>
