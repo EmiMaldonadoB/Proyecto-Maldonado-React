@@ -31,3 +31,27 @@
 .card-body{
     padding: none;
 }
+
+.tamañoImg{
+    max-width: 300px;
+    height: auto;
+}
+
+.botonComprar{
+    background-color: rgb(73, 60, 49);
+}
+
+.divContainerDetail{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+
+.botonDetalle{
+    background-color: rgb(73, 60, 49);
+}
+
+.divCards{
+    display: flex;
+    justify-content: center;
+}
