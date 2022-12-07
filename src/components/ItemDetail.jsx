@@ -5,7 +5,7 @@ const ItemDetail = ({ item }) => {
     return (
         <>
         {
-            item && item.thumbnail
+            item && item.imagen
             ?
             <>
             <div className='product-wrapper'>
