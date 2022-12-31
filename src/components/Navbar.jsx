@@ -13,13 +13,13 @@ function ColorSchemesExample() {
           <Nav className="me-auto">
             <Nav.Link  as={Link} to="category/1">Tinto</Nav.Link>
             <Nav.Link  as={Link} to="category/2">Blanco</Nav.Link>
-            <Nav.Link  as={Link} to="category/3">Agua</Nav.Link>
+            <Nav.Link  as={Link} to="category/3">Sin Alcohol</Nav.Link>
             
           </Nav>
           <Nav>
-            <Nav.Link href="#login">Login</Nav.Link>
-            <Nav.Link href="#regiser">Register</Nav.Link>
-            <Nav.Link href="#cart"><CartWidget  /> </Nav.Link>
+            <Nav.Link href="#login">Loguearse</Nav.Link>
+            <Nav.Link href="#regiser">Registrarse</Nav.Link>
+            <Nav.Link as={Link} to="Cart"><CartWidget  /> </Nav.Link>
             </Nav>
         </Container>
       </Navbar>
